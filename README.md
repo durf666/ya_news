@@ -4,4 +4,4 @@
 python manage.py loaddata news.json
 ```
 
-s
+sj
