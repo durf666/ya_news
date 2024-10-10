@@ -51,6 +51,7 @@ class TestRoutes(TestCase):
                     response = self.client.get(url)
                     self.assertEqual(response.status_code, status)
 
+
     def test_redirect_for_anonimous_client(self):
         login_url = reverse('users:login')
         for name in ('news:edit', 'news:delete'):

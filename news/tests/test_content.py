@@ -13,6 +13,7 @@ User = get_user_model()
 class TestHomePage(TestCase):
     HOME_URL = reverse('news:home')
 
+
     @classmethod
     def setUpTestData(cls):
         News.objects.bulk_create(
